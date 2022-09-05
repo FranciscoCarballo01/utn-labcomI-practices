@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Servicar, concesionario y autoservicios</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+   <!-- Encabezado -->
+<header>
+    <h1> ¡Bienvenidos a ServiCar! </h1>  
+</header>
+
+<div class="container">
+    <!-- Navegación / cotenedor izquierdo -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            </ul>
+    </nav>
+    <!-- Contenedor principal -->
+
+    <main>
+   
+        <section>
+            <form action="/formu.php">
+
+                <table>
+
+                    <thead>
+                        Formulario
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label for="nombre"> Nombre: </label></td>
+                            <td><input type="text" name="nombre" id="nombre" required></td> 
+                        </tr>
+                        <tr>
+                            <td><label for="email"> Email: </label></td>
+                            <td><input type="text" name="email" id="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="edad"> Edad: </label></td>
+                            <td><input type="number" name="edad" id="edad"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="color"> Color: </label></td>
+                            <td><input type="text" name="color" id="color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="coment"> Comentario: </label></td>
+                            <td><textarea name="coment" id="coment" cols="30" rows="10"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table> <br></br>
+
+                
+                <input type="submit" value="Enviar">  <br></br>
+                <label for="recordarme"> Recordar </label>
+                <input type="checkbox" name="recordarme" id="recordarme">
+
+            </form>
+        </section>
+
+        <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107134.74394339786!2d-60.76668013614808!3d-32.95204570871726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6539335d7d75b%3A0xec4086e90258a557!2sRosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1662418175111!5m2!1ses!2sar"
+                width="600" 
+                height="450" 
+                style="border:0;"
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+    </main>
+
+    <!-- Contenedor secundario / derecho -->
+
+    <div class="right">
+        <h2>Comunicate con nosotros</h2>
+        <p> Llená el formulario, envialo y esperá nuestra respuesta. </p>
+    </div>
+</div>
+
+    <!-- Pie de Página-->
+
+<footer>
+    <p> ServiCar S.R.L </p>
+</footer> 
+
+</body>
+
+</html>
