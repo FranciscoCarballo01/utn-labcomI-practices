@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Servicar, concesionario y autoservicios</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+   <!-- Encabezado -->
+<header>
+    <h1> ¡Bienvenidos a ServiCar! </h1>  
+</header>
+
+<div class="container">
+    <!-- Navegación / cotenedor izquierdo -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            </ul>
+    </nav>
+    <!-- Contenedor principal -->
+
+    <main>
+   
+        <section>
+            <form action="/formu.php">
+
+                <table>
+
+                    <thead>
+                        Formulario
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label for="nombre"> Nombre: </label></td>
+                            <td><input type="text" name="nombre" id="nombre" required></td> 
+                        </tr>
+                        <tr>
+                            <td><label for="email"> Email: </label></td>
+                            <td><input type="text" name="email" id="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="edad"> Edad: </label></td>
+                            <td><input type="number" name="edad" id="edad"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="color"> Color: </label></td>
+                            <td><input type="text" name="color" id="color"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="coment"> Comentario: </label></td>
+                            <td><textarea name="coment" id="coment" cols="30" rows="10"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table> <br></br>
+
+                
+                <input type="submit" value="Enviar">  <br></br>
+                <label for="recordarme"> Recordar </label>
+                <input type="checkbox" name="recordarme" id="recordarme">
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Contenedor secundario / derecho -->
+
+    <div class="right">
+        <h2>Comunicate con nosotros</h2>
+        <p> Llená el formulario, envialo y esperá nuestra respuesta. </p>
+    </div>
+</div>
+
+    <!-- Pie de Página-->
+
+<footer>
+    <p> ServiCar S.R.L </p>
+</footer> 
+
+</body>
+
+</html>
